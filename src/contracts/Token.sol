@@ -7,7 +7,7 @@ contract Token {
 
     // Variables
     string public name = "BDB Token";
-    string public symbol = "DBD";
+    string public symbol = "BDB";
     uint256 public decimals = 18;
     uint256 public totalSupply;
     mapping(address => uint256) public balanceOf;
