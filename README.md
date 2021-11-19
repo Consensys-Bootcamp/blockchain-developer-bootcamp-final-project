@@ -7,4 +7,12 @@ BDB/ETH Exchange is a Decentralised Application build on React JS with Ethereum 
 1. Visual Code Studio
 2. NodeJS(NPM)
 3. Truffle
+    ```
+    npm install truffle -g
+    ```
 4. Ganache
+5. GIT
+
+
+
+
