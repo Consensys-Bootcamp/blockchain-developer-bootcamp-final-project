@@ -33,17 +33,17 @@ Apart from above software we also required below tools or account:
     https://github.com/Consensys-Bootcamp/blockchain-developer-bootcamp-final-project
     ```
 3. Heroku
-   To host the decntralised app Developed using react JS.
+To host the decntralised app Developed using react JS.
    ```
    https://bdb-token-exchange.herokuapp.com/
    ```
 4. Infura
-    This will required to connect to Kovan TestNet. Infura Provides API Serrvice for Blockcahin.
+This will required to connect to Kovan TestNet. Infura Provides API Serrvice for Blockcahin.
     ```
     https://infura.io/
     ```
 5. Gitter-Kovan
-    This will required to get Kovan ETH for deployment on TestNet.
+This will required to get Kovan ETH for deployment on TestNet.
     ```
     https://gitter.im/kovan-testnet/faucet
     ```
