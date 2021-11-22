@@ -27,25 +27,25 @@ Below are the required software for the development and execiution of the Projec
     ```
 
 Apart from above software we also required below tools or account:
-1. Github
+1. Github - 
     Git Client to store the code base and sharing with coworkers.
     ```
     https://github.com/Consensys-Bootcamp/blockchain-developer-bootcamp-final-project
     ```
-3. Heroku
+3. Heroku - 
 To host the decntralised app Developed using react JS.
    ```
    https://bdb-token-exchange.herokuapp.com/
    ```
-4. Infura
+4. Infura - 
 This will required to connect to Kovan TestNet. Infura Provides API Serrvice for Blockcahin.
     ```
     https://infura.io/
     ```
-5. Gitter-Kovan
+5. Gitter-Kovan - 
 This will required to get Kovan ETH for deployment on TestNet.
     ```
     https://gitter.im/kovan-testnet/faucet
     ```
-
+6. Github Page - 
 
