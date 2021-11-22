@@ -30,9 +30,8 @@ Below are the required software for the development and execiution of the Projec
 Apart from above software we also required below tools or account:
 ### Github - 
     - Git Client to store the code base and sharing with coworkers.
-        ```
         https://github.com/Consensys-Bootcamp/blockchain-developer-bootcamp-final-project
-        ```
+       
 ### Heroku - 
     - To host the decntralised app Developed using react JS.
         ```
@@ -45,6 +44,7 @@ Apart from above software we also required below tools or account:
         ```
 ### Gitter-Kovan - 
     - This will required to get Kovan ETH for deployment on TestNet.
+    
         ```
         https://gitter.im/kovan-testnet/faucet
         ```
