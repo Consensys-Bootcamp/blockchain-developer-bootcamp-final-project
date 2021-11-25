@@ -33,7 +33,7 @@ Apart from above software we also required below tools or account:
 
 # Screenshots
 - Project Structure
-  ![image] (https://github.com/Consensys-Bootcamp/blockchain-developer-bootcamp-final-project/blob/main/images/Project%20Directory%20Structure.png)
+  [![image] (https://github.com/Consensys-Bootcamp/blockchain-developer-bootcamp-final-project/blob/main/images/Project%20Directory%20Structure.png)]
   - ![image] (https://github.com/Consensys-Bootcamp/blockchain-developer-bootcamp-final-project/blob/main/images/Project%20Directory%20Structure.png)
 - Ganache & Metamask
 - Ropsten Testnet
