@@ -34,8 +34,11 @@ Apart from above software we also required below tools or account:
 # Screenshots
 - Project Structure
   - ![Project Directory](images/Project%20Directory%20Structure.png)
-  - ![Project Structure](images\Project%20Directory%20Structure.png)
+  - ![Project Structure](images/Project%20Directory%20Structure.png)
 - Ganache & Metamask
+  -![Ganache](images/Ganache-1.png)
+  -![Ganache](images/Ganache-2.png)
+  -![Ganache](images/Ganache-3.png)
 - Ropsten Testnet
 - Exchange Application
 
