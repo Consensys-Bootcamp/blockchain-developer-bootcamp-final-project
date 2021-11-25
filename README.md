@@ -13,8 +13,8 @@ Below are the required software for the development and execiution of the Projec
 - GIT - ``` git --version (Install via XCode Tool) ```
 
 Apart from above software we also required below tools or account:
-- Github - Git Client to store the code base and sharing with coworkers. ```https://github.com/Consensys-Bootcamp/blockchain-developer-bootcamp-final-project```    
-- Heroku - To host the decntralised app Developed using react JS. ```https://bdb-token-exchange.herokuapp.com/```
+- Github - Git Client to store the code base and sharing with coworkers. https://github.com/Consensys-Bootcamp/blockchain-developer-bootcamp-final-project   
+- Heroku - To host the decntralised app Developed using react JS. https://bdb-token-exchange.herokuapp.com/
 - Infura - This will required to connect to Ropsten TestNet. Infura Provides API Serrvice for Blockcahin.```https://infura.io/```
 - Faucet Ropsten - This will required to get rETH for deployment on TestNet.```https://faucet.dimensions.network/```
 - Github Page - 
