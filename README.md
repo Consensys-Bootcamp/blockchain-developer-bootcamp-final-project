@@ -6,7 +6,8 @@ BDB/ETH Exchange is a Decentralised Application build on React JS with Ethereum 
 ## Installation & Pre-Requisites (MAC OS)
 Below are the required software for the development and execiution of the Project of this Project.
 
-- Visual Code Studio```https://code.visualstudio.com/?wt.mc_id=DX_841432```
+- Visual Code Studio```https://code.visualstudio.com/?wt.mc_id=DX_841432
+    ```
 - NodeJS(NPM)
     ```
     https://nodejs.org/en/
