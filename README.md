@@ -7,15 +7,25 @@ BDB/ETH Exchange is a Decentralised Application build on React JS with Ethereum 
 Below are the required software for the development and execiution of the Project of this Project.
 
 - Visual Code Studio
+    ```
     https://code.visualstudio.com/?wt.mc_id=DX_841432
+    ```
 - NodeJS(NPM)
+    ```
     https://nodejs.org/en/
+    ```
 - Truffle
+    ```
     npm install truffle -g
+    ```
 - Ganache
+    ```
     https://www.trufflesuite.com/ganache
+    ```
 - GIT
+    ```
     git --version (Install via XCode Tool)
+    ```
 
 Apart from above software we also required below tools or account:
 - Github - 
