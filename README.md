@@ -40,9 +40,9 @@ Apart from above software we also required below tools or account:
   -![Ganache](images/Ganache-2.png)
   -![Ganache](images/Ganache-3.png)
 - Ropsten Testnet
-  -![Ropsten](images/Ropsten Network ETH.png)
-  -![Ropsten](images/Token SmartContract Ropsten.png)
-  -![Ropsten](images/Exchange SmartContract On Ropsten.png)
+  -![Ropsten](images/Ropsten%20Network%20ETH.png)
+  -![Ropsten](images/Token%20SmartContract%20Ropsten.png)
+  -![Ropsten](images/Exchange%20SmartContract%20On%20Ropsten.png)
 - Exchange Application
 
 
