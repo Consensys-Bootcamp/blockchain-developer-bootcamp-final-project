@@ -21,14 +21,15 @@ Apart from above software we also required below tools or account:
 
 ## Smart Contract & Application
 # Smart Contract
--  npm install
--  truffle compile
--  truffle test
--  truffle migrate --network development
--  truffle migrate --network ropsten
+Smart Contract Token and Exchange are deployed on local network and ropsten network. Here is the step to do so:
+-  ```npm install```
+-  ```truffle compile```
+-  ```truffle test```
+-  ```truffle migrate --network development```
+-  ```truffle migrate --network ropsten```
 
 # Application
-- npm start
+- ```npm start```
 - http://localhost:3000/
 
 # Screenshots
