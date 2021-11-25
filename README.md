@@ -39,13 +39,13 @@ Smart Contract Token and Exchange are deployed on local network and ropsten netw
   - ![Project Directory](images/Project%20Directory%20Structure.png)
   - ![Project Structure](images/Project%20File%20Structure.png)
 - Ganache & Metamask
-  -![Ganache](images/Ganache-1.png)
-  -![Ganache](images/Ganache-2.png)
-  -![Ganache](images/Ganache-3.png)
+  - ![Ganache](images/Ganache-1.png)
+  - ![Ganache](images/Ganache-2.png)
+  - ![Ganache](images/Ganache-3.png)
 - Ropsten Testnet
-  -![Ropsten](images/Ropsten%20Network%20ETH.png)
-  -![Ropsten](images/Token%20SmartContract%20Ropsten.png)
-  -![Ropsten](images/Exchange%20SmartContract%20On%20Ropsten.png)
+  - ![Ropsten](images/Ropsten%20Network%20ETH.png)
+  - ![Ropsten](images/Token%20SmartContract%20Ropsten.png)
+  - ![Ropsten](images/Exchange%20SmartContract%20On%20Ropsten.png)
 - Exchange Application
 
 
