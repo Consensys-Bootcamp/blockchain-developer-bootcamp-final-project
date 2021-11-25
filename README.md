@@ -31,6 +31,8 @@ Smart Contract Token and Exchange are deployed on local network and ropsten netw
 # Application
 - ```npm start```
 - http://localhost:3000/
+- Application hosted on Heroku : https://bdb-token-exchange.herokuapp.com/
+- Appliction hosted on GitHub : https://consensys-bootcamp.github.io/bdb-token-exchange/ 
 
 # Screenshots
 - Project Structure
