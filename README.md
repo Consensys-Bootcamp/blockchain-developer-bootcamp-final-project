@@ -38,7 +38,7 @@ Smart Contract Token and Exchange are deployed on local network and ropsten netw
 - Seed with some transaction on ropsten test network.
   ```truffle exec script/seed-exchange.js --network ropsten```
 # ScreenCast
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/vt5fpE0bzSY)
+[![Watch the video]](https://www.youtube.com/watch?v=mr3lcJ5jHn8)
 # Screenshots
 - Project Structure
   - ![Project Directory](images/Project%20Directory%20Structure.png)
