@@ -22,18 +22,19 @@ Apart from above software we also required below tools or account:
 ## Smart Contract & Application
 # Smart Contract
 Smart Contract Token and Exchange are deployed on local network and ropsten network. Here is the step to do so:
--  ```npm install```
--  ```truffle compile```
--  ```truffle test```
--  ```truffle migrate --network development```
--  ```truffle migrate --network ropsten```
+-  ```npm install```  - To Install dependancies
+-  ```truffle compile``` - To Compile the Smart Contract
+-  ```truffle test``` - To Execute the Unit Test Cases
+-  ```truffle migrate --network development``` - To Migrate the Smart Contract to Development Network
+-  ```truffle migrate --network ropsten``` - To Migrate the Smart Contract to Ropsten Network
 
 # Application
 - ```npm start```
 - http://localhost:3000/
 - Application hosted on Heroku : https://bdb-token-exchange.herokuapp.com/
 - Appliction hosted on GitHub : https://consensys-bootcamp.github.io/bdb-token-exchange/ 
-
+# Seeding the Exchange
+# ScreenCast
 # Screenshots
 - Project Structure
   - ![Project Directory](images/Project%20Directory%20Structure.png)
