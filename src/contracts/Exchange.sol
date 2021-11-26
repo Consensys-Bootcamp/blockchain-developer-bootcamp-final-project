@@ -1,9 +1,11 @@
-pragma solidity >=0.5.16 <0.9.0;
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.0;
 
 import "./Token.sol";
-import "openzeppelin-solidity/contracts/math/SafeMath.sol";
-
-contract Exchange {
+//import "openzeppelin-solidity/contracts/math/SafeMath.sol";
+import "@openzeppelin/contracts/utils/math/SafeMath.sol";
+import "@openzeppelin/contracts/access/Ownable.sol";
+contract Exchange is Ownable{
     using SafeMath for uint;
 
     // Variables
@@ -58,14 +60,14 @@ contract Exchange {
         uint256 amountGive;
         uint256 timestamp;
     }
-
-    constructor (address _feeAccount, uint256 _feePercent) public {
+    
+    constructor (address _feeAccount, uint256 _feePercent)  {
         feeAccount = _feeAccount;
         feePercent = _feePercent;
     }
 
     // Fallback: reverts if Ether is sent to this smart contract by mistake
-    function() external {
+    fallback() external {
         revert();
     }
 
@@ -77,7 +79,7 @@ contract Exchange {
     function withdrawEther(uint _amount) public {
         require(tokens[ETHER][msg.sender] >= _amount);
         tokens[ETHER][msg.sender] = tokens[ETHER][msg.sender].sub(_amount);
-        msg.sender.transfer(_amount);
+        payable(msg.sender).transfer(_amount);
         emit Withdraw(ETHER, msg.sender, _amount, tokens[ETHER][msg.sender]);
     }
 
@@ -102,8 +104,8 @@ contract Exchange {
 
     function makeOrder(address _tokenGet, uint256 _amountGet, address _tokenGive, uint256 _amountGive) public {
         orderCount = orderCount.add(1);
-        orders[orderCount] = _Order(orderCount, msg.sender, _tokenGet, _amountGet, _tokenGive, _amountGive, now);
-        emit Order(orderCount, msg.sender, _tokenGet, _amountGet, _tokenGive, _amountGive, now);
+        orders[orderCount] = _Order(orderCount, msg.sender, _tokenGet, _amountGet, _tokenGive, _amountGive, block.timestamp);
+        emit Order(orderCount, msg.sender, _tokenGet, _amountGet, _tokenGive, _amountGive, block.timestamp);
     }
 
     function cancelOrder(uint256 _id) public {
@@ -111,7 +113,7 @@ contract Exchange {
         require(address(_order.user) == msg.sender);
         require(_order.id == _id); // The order must exist
         orderCancelled[_id] = true;
-        emit Cancel(_order.id, msg.sender, _order.tokenGet, _order.amountGet, _order.tokenGive, _order.amountGive, now);
+        emit Cancel(_order.id, msg.sender, _order.tokenGet, _order.amountGet, _order.tokenGive, _order.amountGive, block.timestamp);
     }
 
     function fillOrder(uint256 _id) public {
@@ -133,6 +135,6 @@ contract Exchange {
         tokens[_tokenGive][_user] = tokens[_tokenGive][_user].sub(_amountGive);
         tokens[_tokenGive][msg.sender] = tokens[_tokenGive][msg.sender].add(_amountGive);
 
-        emit Trade(_orderId, _user, _tokenGet, _amountGet, _tokenGive, _amountGive, msg.sender, now);
+        emit Trade(_orderId, _user, _tokenGet, _amountGet, _tokenGive, _amountGive, msg.sender, block.timestamp);
     }
 }

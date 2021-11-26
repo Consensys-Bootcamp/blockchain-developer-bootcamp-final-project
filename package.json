@@ -2,7 +2,7 @@
   "name": "blockchain-developer-bootcamp-final-project",
   "version": "0.0.1",
   "description": "BDB Token",
-  "author": "sanjayp.panigrahi@gmail.com",
+  "author": "sanjayp.panigrahi@pm.me",
   "private": true,
   "homepage": ".",
   "engines": {
@@ -25,7 +25,7 @@
     "dotenv": "10.0.0",
     "lodash": "^4.17.21",
     "moment": "2.29.1",
-    "openzeppelin-solidity": "3.4.2",
+    "openzeppelin-solidity": "4.4.0",
     "react": "17.0.2",
     "react-apexcharts": "1.3.9",
     "react-bootstrap": "2.0.2",
@@ -39,7 +39,16 @@
     "truffle": "5.4.21",
     "truffle-flattener": "1.5.0",
     "truffle-hdwallet-provider-privkey": "0.3.0",
-    "web3": "1.6.1"
+    "web3": "1.6.1",
+    "eslint-config-react-app": "6.0.0",
+    "@typescript-eslint/parser": "5.4.0",
+    "eslint-plugin-import": "2.25.3",
+    "eslint-plugin-flowtype": "5.4.0",
+    "eslint-plugin-jsx-a11y": "6.5.1",
+    "eslint-plugin-react-hooks": "4.3.0",
+    "@typescript-eslint/eslint-plugin": "5.4.0",
+    "babel-eslint": "10.1.0",
+    "eslint-plugin-react": "7.27.1"
   },
   "scripts": {
     "start": "react-scripts start",

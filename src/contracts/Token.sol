@@ -1,6 +1,9 @@
-pragma solidity >=0.5.16 <0.9.0;
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.0;
 
-import "openzeppelin-solidity/contracts/math/SafeMath.sol";
+//import "openzeppelin-solidity/contracts/math/SafeMath.sol";
+import "@openzeppelin/contracts/utils/math/SafeMath.sol";
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 contract Token {
     using SafeMath for uint;
@@ -17,7 +20,7 @@ contract Token {
     event Transfer(address indexed from, address indexed to, uint256 value);
     event Approval(address indexed owner, address indexed spender, uint256 value);
 
-    constructor() public {
+    constructor() {
         totalSupply = 1000000 * (10 ** decimals);
         balanceOf[msg.sender] = totalSupply;
     }
