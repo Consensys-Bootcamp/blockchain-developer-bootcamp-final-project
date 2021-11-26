@@ -17,7 +17,6 @@ Apart from above software we also required below tools or account:
 - Heroku - To host the decntralised app Developed using react JS. https://bdb-token-exchange.herokuapp.com/
 - Infura - This will required to connect to Ropsten TestNet. Infura Provides API Serrvice for Blockcahin.```https://infura.io/```
 - Faucet Ropsten - This will required to get rETH for deployment on TestNet.```https://faucet.dimensions.network/```
-- Github Page - 
 
 ## Smart Contract & Application
 # Smart Contract
@@ -31,10 +30,15 @@ Smart Contract Token and Exchange are deployed on local network and ropsten netw
 # Application
 - ```npm start```
 - http://localhost:3000/
-- Application hosted on Heroku : https://bdb-token-exchange.herokuapp.com/
+- Application hosted on Heroku : https://bdb-token-exchange.herokuapp.com/ ```git push heroku main```
 - Appliction hosted on GitHub : https://consensys-bootcamp.github.io/bdb-token-exchange/ 
 # Seeding the Exchange
+- Seed with some transaction on local development network.
+  ```truffle exec script/seed-exchange.js --network development```
+- Seed with some transaction on ropsten test network.
+  ```truffle exec script/seed-exchange.js --network ropsten```
 # ScreenCast
+[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/vt5fpE0bzSY)
 # Screenshots
 - Project Structure
   - ![Project Directory](images/Project%20Directory%20Structure.png)
@@ -48,6 +52,12 @@ Smart Contract Token and Exchange are deployed on local network and ropsten netw
   - ![Ropsten](images/Token%20SmartContract%20Ropsten.png)
   - ![Ropsten](images/Exchange%20SmartContract%20On%20Ropsten.png)
 - Exchange Application
+
+##ToDo
+- Collect ropsten ETH for proper testing
+- Handle Exception with proper message
+- Is Ownable and Is ERC20 extend implementation
+- Improve the Decntralised App UI & Error Handling
 
 
 
