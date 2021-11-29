@@ -1,0 +1,10 @@
+local deployment 
+==================
+Token fetched 0xa8eB3cC7582c768934A4C8c6035D58Fd66BE6771
+Exchange fetched 0x18329ec1Eaf861B87E90666C5d24d883568713Db
+
+
+ropsten deployment
+=================
+Token fetched 0x6E8C349782bFd7AbA96415F1C011E6f239E5B67C
+Exchange fetched 0x562C7415350014Ed6D7471d130eA7Ea08BAA232C
